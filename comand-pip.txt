@@ -1,0 +1,37 @@
+
+Необходимо создать пустой проект в PyCharm и клонировать репозиторий - https://github.com/yanchuki/pygame_example.git
+=====================================================================================================================
+
+(.venv) PS C:\Users\HP\PycharmProjects\pygame_example> git clone https://github.com/yanchuki/pygame_example.git
+Cloning into 'pygame_example'...
+remote: Enumerating objects: 7, done.
+remote: Counting objects: 100% (7/7), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 7 (delta 0), reused 4 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (7/7), done.
+(.venv) PS C:\Users\HP\PycharmProjects\pygame_example>
+
+
+Создать новое виртуальное окружение (назвать на своё усмотрение) и сделать его главным для проекта.
+Активировать новое виртуальное окружение в консоли, предварительно деактивировав старое.
+В новое виртуальное окружение загрузить необходимые пакеты при помощи файла зависимостей - requirements.txt. 
+Сделать это можно следующей командой - pip install -r requirements.txt
+===================================================================================================
+
+(.venv) PS C:\Users\HP\PycharmProjects\pygame_example> python -m venv venv
+(.venv) PS C:\Users\HP\PycharmProjects\pygame_example> venv\Scripts\activate
+(venv) PS C:\Users\HP\PycharmProjects\pygame_example> pip install -r requirements.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
